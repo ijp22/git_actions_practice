@@ -35,9 +35,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      
-      - name: Remove file 2
-        run: rm file2.txt
           
       - name: List current directory content
         run: ls -la
