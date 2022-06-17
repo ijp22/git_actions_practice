@@ -40,3 +40,6 @@ jobs:
         
       - name: Run a script file
         run: bash ./script.sh
+        
+      - name: List current directory content 2
+        run: ls -la
